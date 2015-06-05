@@ -1,1 +1,1 @@
-s3cmd sync -r ./ s3://enigma-chartbuilder/
+s3cmd sync -r ./ s3://chartbuilder.enigmalabs.org/
