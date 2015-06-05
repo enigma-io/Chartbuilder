@@ -1,0 +1,1 @@
+s3cmd sync -r ./ s3://enigma-chartbuilder/
