@@ -197,21 +197,17 @@
     <!-- Chartbuilder JS -->
     <script src="js/gneisschart.js"></script>
     <script src="js/chartbuilder.js"></script>
-		
-		<script type="text/javascript">
+    
+    <script type="text/javascript">
 
-		//This loads the webfonts and starts Chartbuilder once they're present
-		WebFont.load({
-			custom: {
-				families: ["Cutive"]
-			},
-		    active: function(name) {
-		        $(document).ready(function() {
-		            ChartBuilder.start();
-		        });
-		    }
-		});
+        $(document).ready(function() {
+            ChartBuilder.start({
+              colors: ["#288cd2","#eb3f25","#00b495"],
+              creditline: 'Enigma',
+              footerMargin: 2
+            });
+        });
 
-		</script>
-	</body>
+    </script>
+  </body>
 </html>

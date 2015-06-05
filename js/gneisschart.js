@@ -46,7 +46,7 @@ Gneiss.defaultGneissChartConfig = {
 	title: "", // the chart title
 	titlePlacement: "aligned", //fixed to stay at default padding, aligned to move with padding adjustemnts
 	titleBottomMargin: 5, // the vertical space between the title and the next element (sometimes a legend, sometimes an axis)
-	legendBottomMargin: 0, // the vertical space between the title and the chart area if there is a legend
+	legendBottomMargin: 3, // the vertical space between the title and the chart area if there is a legend
 	bargridLabelBottomMargin: 5, //the space between the bargrid series label and the top most bar
 	bargridSeriesGap: 10, //the horizontal space betweet two bargrid series
 	colors: ["BF0053","FF70B0","E15D98","C44B81","A63869","882551","6B133A","4D0022",
@@ -138,7 +138,7 @@ Gneiss.defaultGneissChartConfig = {
 	},
 	margin: { //the margin is the space between the edge of the image and the next closest item
 		top: 0,
-		bottom: 0,
+		bottom: 3,
 		left: 5,
 		right: 5
 	},
@@ -186,7 +186,7 @@ Gneiss.defaultGneissChartConfig = {
 		data: ["juicyness", "color", "flavor", "travelability"]
 	}],
 	sourceline: "",
-	creditline: "Made with Chartbuilder"
+	creditline: ""
 };
 
 Gneiss.dateParsers = {

@@ -2,10 +2,8 @@
 // Make sure to change the name of the font 
 // in the webfont.js loader in index.html
 */
-@import url(//fonts.googleapis.com/css?family=Cutive); 
-
 svg {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 svg #ground {
@@ -42,15 +40,15 @@ svg .axis path {
 }
 
 svg .axis text {
-	font-family: 'Cutive',Helvetica, sans-serif;
+	font-family: 'Avenir Book',Helvetica, sans-serif;
 }
 
 svg .legendItem text {
-	font-family: 'Cutive',Helvetica, sans-serif;
+	font-family: 'Avenir Book', Helvetica, sans-serif;
 }
 
 svg text.metaText {
-	font-family: 'Cutive',Helvetica, sans-serif;
+	font-family: 'Avenir Light', Helvetica, sans-serif;
 	font-size:  10px;
 	text-rendering:   optimizeLegibility;
 	fill:  #999999;
@@ -58,7 +56,7 @@ svg text.metaText {
 
 svg text.barLabel, 
 svg text.bargridLabel {
-	font-family: 'Cutive',Helvetica, sans-serif;
+	font-family: 'Avenir Light', Helvetica, sans-serif;
 }
 
 /*Default styling of series*/
@@ -71,14 +69,15 @@ svg path.seriesLinePath {
 }
 
 svg .seriesScatter circle {
-	stroke:#fff;
-	stroke-width":1;
+	stroke: null;
+	stroke-width": 1;
 }
 	
 .seriesLineGroup .seriesLineDot {
   stroke-width: 0;
 }
 #titleLine {
-	font-family: 'Cutive',Helvetica, sans-serif;
+	font-family: 'Avenir Book',Helvetica, sans-serif;
 	fill: #666666;
+	font-size: 16px;
 }
